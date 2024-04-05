@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #fed9b7;
+}
+
+h2 {
+    font-style: italic;
+    text-align: center;
+    background-color: rebeccapurple;
+    font-size: 50px;
+    color: white;
+}
+
+.timer_display {
+    margin-top: 150px;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 150px;
+    font-weight: 600;
+}
+
+.button_container {
+    display: flex;
+}
+
+button {
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 550;
+    border-radius: 15px;
+    cursor: pointer;
+    color: white;
+    border: none;
+}
+
+.stop_button {
+    background-color: red;
+    margin-left: 427px;
+}
+
+.start_button {
+    background-color: green;
+    margin-left: 170px
+}
+
+.reset_button {
+    background-color: rgb(91, 17, 91);
+    margin-left: 170px;
+}
